@@ -13,7 +13,7 @@ function Adminmenubar() {
             <div className='flex justify-center p-6'>
                 <img className="w-24 h-24 rounded-full flex" src={Image} alt='Logo' />
             </div>
-            <h2 className="flex justify-center">You Are a Admin</h2>
+            <h2 className="flex justify-center font-semibold font-serif">Jack Daniels</h2>
             <div className="flex flex-col gap-7  tracking-normal p-7">
                 <div className='flex flex-row gap-3 hover:border-l-2 cursor-pointer'> <HomeIcon className='h-6 w-6' /> <span>Home</span></div>
                 <div className='flex flex-row gap-3  hover:border-l-2 cursor-pointer'> <InboxStackIcon className='h-6 w-6' /><span>Products</span></div>

@@ -6,12 +6,12 @@ import TopNavBar from "../Components/TopNavBar";
 
 function Products () {
     return (
-        <>
+        <div className="bg-gradient-to-r from-cyan-200 to-gray-100">
             <TopNavBar/>
             <MiddleNavBar/>
             <BottomNavBar/>
             <FeaturedProducts/>
-        </>
+        </div>
 
     )
 }

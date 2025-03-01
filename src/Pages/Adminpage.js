@@ -19,5 +19,3 @@ function Adminpage() {
 }
 
 export default Adminpage;
-
-

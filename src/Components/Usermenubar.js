@@ -8,12 +8,12 @@ import Image from '../Assets/1.jpg'
 
 function Usermenubar() {
     return (
-        <div className="h-screen bg-gradient-to-r from-pink-400 to-orange-200  w-full max-w-64">
+        <div className="h-screen bg-gradient-to-r from-green-400 to-green-100  w-full max-w-64">
             <h3 className="flex justify-center font-semibold"> User Board</h3>
             <div className='flex justify-center p-6'>
                 <img className="w-24 h-24 rounded-full flex" src={Image} alt='Logo' />
             </div>
-            <h2 className="flex justify-center">You Are a User</h2>
+            <h2 className="flex justify-center font-semibold font-serif">Jack Daniels</h2>
             <div className="flex flex-col gap-7  tracking-normal p-7">
                 <div className='flex flex-row gap-3 hover:border-l-2 cursor-pointer'> <HomeIcon className='h-6 w-6' /> <span>Home</span></div>
                 <div className='flex flex-row gap-3  hover:border-l-2 cursor-pointer'> <InboxStackIcon className='h-6 w-6' /><span>Products</span></div>
